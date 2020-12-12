@@ -1,6 +1,5 @@
 import { useRouter } from "next/router"
 import Head from "next/head"
-import { withCookies } from "react-cookie"
 import axios from "axios"
 import { useEffect, useState } from "react"
 
@@ -96,4 +95,4 @@ const Username = ({ allCookies }) => {
 	)
 }
 
-export default withCookies(Username)
+export default Username

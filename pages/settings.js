@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { settingsSchema } from "../utils/validationSchemas"
 import { useRouter } from "next/router"
-import { withCookies } from "react-cookie"
 
 function Settings({ info, cookies }) {
 	const router = useRouter()
@@ -192,4 +191,4 @@ Settings.getInitialProps = async (ctx) => {
 	}
 }
 
-export default withCookies(Settings)
+export default Settings
