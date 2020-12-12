@@ -1,6 +1,5 @@
 import { useRouter } from "next/router"
 import Head from "next/head"
-import axios from "axios"
 import { useEffect, useState } from "react"
 
 const Username = ({ allCookies }) => {
@@ -8,16 +7,16 @@ const Username = ({ allCookies }) => {
 	const router = useRouter()
 	const { username } = router.query
 
-	const getUser = () => {
-		axios
-			.get(`https://testifyio.herokuapp.com/users/me`, {
-				headers: { Authorization: `Bearer ${allCookies._SESSIONID_}` },
-			})
-			.then((res) => {
-				setUser(res.data)
-			})
-			.catch((err) => console.log(err))
-	}
+	// const getUser = () => {
+	// 	axios
+	// 		.get(`https://testifyio.herokuapp.com/users/me`, {
+	// 			headers: { Authorization: `Bearer ${allCookies._SESSIONID_}` },
+	// 		})
+	// 		.then((res) => {
+	// 			setUser(res.data)
+	// 		})
+	// 		.catch((err) => console.log(err))
+	// }
 
 	useEffect(() => {
 		if (allCookies._SESSIONID_) {
