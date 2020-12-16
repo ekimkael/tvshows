@@ -48,7 +48,7 @@ function TVshows({ shows, token }) {
 TVshows.getInitialProps = async (ctx) => {
 	let shows
 	// console.log(process.browser)
-	await fetch("http://api.tvmaze.com/shows")
+	await fetch("https://api.tvmaze.com/shows")
 		.then((response) => response.json())
 		.then((datas) => (shows = datas))
 	return { shows }

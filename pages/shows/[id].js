@@ -34,7 +34,7 @@ function ShowID({ show }) {
 
 ShowID.getInitialProps = async (ctx) => {
 	let show
-	await fetch(`http://api.tvmaze.com/shows/${ctx.query.id}`)
+	await fetch(`https://api.tvmaze.com/shows/${ctx.query.id}`)
 		.then((response) => response.json())
 		.then((datas) => (show = datas))
 	return { show }
