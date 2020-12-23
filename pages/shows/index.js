@@ -1,10 +1,15 @@
 import Navbar from "../../organisms/Navbar"
 import Link from "next/link"
+import Head from "next/head"
 import { withAuthorization } from "../../utils/withAuthorization"
 
 function TVshows({ shows, token }) {
 	return (
 		<>
+			<Head>
+				<title>Login to your account | Nextrap</title>
+			</Head>
+			{/*  */}
 			<Navbar token={token} />
 			<div className="container py-5">
 				<h1 className="mb-5">

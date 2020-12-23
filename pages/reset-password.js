@@ -33,14 +33,14 @@ function ResetPassword() {
 	return (
 		<>
 			<Head>
-				<title>Reset Password</title>
+				<title>Reset Password | TVSHOWS</title>
 			</Head>
 			{/*  */}
 			<div className="container">
 				<Link href="/">
-					<a>
+					<a className="text-dark">
 						<h1 className="text-center">
-							<b>Nextrap</b>
+							<b>TVSHOWS</b>
 						</h1>
 					</a>
 				</Link>

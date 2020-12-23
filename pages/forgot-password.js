@@ -16,14 +16,14 @@ const ForgotPassword = () => {
 	return (
 		<>
 			<Head>
-				<title>Forgot Password</title>
+				<title>Forgot Password | TVSHOWS</title>
 			</Head>
 			{/*  */}
 			<div className="container">
 				<Link href="/">
-					<a>
+					<a className="text-dark">
 						<h1 className="text-center">
-							<b>Nextrap</b>
+							<b>TVSHOWS</b>
 						</h1>
 					</a>
 				</Link>

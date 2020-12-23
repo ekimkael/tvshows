@@ -6,13 +6,13 @@ export default function Terms() {
 		<>
 			<Navbar />
 			<Head>
-				<title>Terms of Services | Nextrap</title>
+				<title>Terms of Services | TVSHOWS</title>
 			</Head>
 
 			<div className="col-md-8 mx-auto py-5">
 				<h1>
 					Terms and Conditions sample for
-					<span className="highlight preview_company_name"> Nextrap</span>
+					<span className="highlight preview_company_name"> TVSHOWS</span>
 				</h1>
 				<h4>Introduction</h4>
 				<p>

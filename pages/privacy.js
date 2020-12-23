@@ -6,13 +6,13 @@ export default function Terms() {
 		<>
 			<Navbar />
 			<Head>
-				<title>Privacy policies | Nextrap</title>
+				<title>Privacy policies | TVSHOWS</title>
 			</Head>
 
 			<div className="col-md-8 mx-auto py-5">
 				<h1>
 					Privacy policies sample for
-					<span className="highlight preview_company_name"> Nextrap</span>
+					<span className="highlight preview_company_name"> TVSHOWS</span>
 				</h1>
 				<h4>Introduction</h4>
 				<p>

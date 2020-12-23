@@ -1,41 +1,29 @@
 {
-  "name": "fortrading",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@hookform/resolvers": "^1.0.0",
-    "bootstrap": "^4.5.2",
-    "cookie": "^0.4.1",
-    "html-react-parser": "^0.14.2",
-    "jsonwebtoken": "^8.5.1",
-    "next": "9.5.3",
-    "nookies": "^2.5.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-hook-form": "^6.9.6",
-    "sass": "^1.26.10",
-    "yup": "^0.29.3"
-  },
-  "author": {
-    "name": "Ekim Kael",
-    "email": "michelmbili@gmail.com",
-    "url": "https://ekimkael.github.io"
-  },
-  "contributors": [
-    {
-      "name": "Philippe Tedajo",
-      "email": "philmuse21@gmail.com",
-      "url": "https://www.philippetedajo.com/"
-    },
-    {
-      "name": "Marcel Shinyuy",
-      "email": "shinyuy9@gmail.com",
-      "url": "https://shinyuy.github.io/"
-    }
-  ]
+	"name": "tvshows",
+	"version": "0.2.1",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@hookform/resolvers": "^1.0.0",
+		"bootstrap": "^4.5.2",
+		"cookie": "^0.4.1",
+		"html-react-parser": "^0.14.2",
+		"jsonwebtoken": "^8.5.1",
+		"next": "9.5.3",
+		"nookies": "^2.5.0",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-hook-form": "^6.9.6",
+		"sass": "^1.26.10",
+		"yup": "^0.29.3"
+	},
+	"author": {
+		"name": "Ekim Kael",
+		"email": "michelmbili@gmail.com",
+		"url": "https://ekimkael.github.io"
+	}
 }
